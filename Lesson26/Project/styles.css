@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  font-family: "Monoton", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: aliceblue;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 400px;
+  width: 500px;
+  background-image: url(https://wallpapercave.com/wp/qQa5Pd7.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 3px solid rgb(94, 93, 93);
+  border-radius: 20px;
+}
+
+.request-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.city-input {
+  height: 30px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.request-button {
+  width: 150px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #dd0808;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.request-button:hover {
+  background-color: #191935;
+}
+
+.weather-container {
+  width: 415px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  border: 5px solid #191935;
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
